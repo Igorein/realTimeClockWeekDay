@@ -1,5 +1,5 @@
 // ISIM
-let userName = document.onload = prompt("Enter your name!");
+let userName = prompt("Enter your name!");
 let greeting = document.querySelector(".greeting");
 greeting.innerHTML = `
 Merhaba, <strong>${userName}</strong>! Hosgeldin!
